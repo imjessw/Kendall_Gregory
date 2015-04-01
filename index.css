@@ -3,3 +3,10 @@
 	display: inline-block;
 	width: 100%;
 }
+
+.socials{
+	margin-right: 25px;
+	margin-left: 25px;
+	color: Black;
+	text-decoration: underline;
+}

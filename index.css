@@ -10,3 +10,70 @@
 	color: Black;
 	text-decoration: underline;
 }
+
+.whiteOverlay:hover{
+	opacity: .5;
+
+}
+
+
+/*images*/
+.left{
+	float: left;
+	margin-left: 70px;
+}
+
+.right{
+	float: right;
+	margin-right: 70px;
+}
+
+/*positioning of all the images*/
+
+#Fade{ 
+   
+}
+
+#GE{
+	width: 349px;
+	margin-top: 250px;
+
+}
+
+#Patron{
+
+}
+
+#ArtofHealthyHair{
+
+}
+
+#Nexxus{
+
+}
+
+#CoverGirl{
+
+}
+
+#PRTR{
+
+}
+
+#Pantnene{
+
+}
+
+#LG{
+
+}
+
+#TumsProduct{
+
+}
+
+#StIves{
+	
+}
+
+

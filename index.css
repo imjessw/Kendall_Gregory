@@ -4,7 +4,11 @@ body{
 	font-family: brandon-grotesque,Arial,Helvetica,sans-serif;
 
 }
-
+#topMenu{
+	right: 20px;
+	position: fixed;
+	
+}
 
 #MenuBar{
 	text-align: center;
@@ -47,13 +51,13 @@ body{
 
 #Fade{ 
 	position:relative;
-	/*top:-260px;*/
+	top:260px;
 	width: 840px;
    
 }
 
 #GE{
-	position: fixed;
+	position: relative;
 	width: 349px;
 	margin-right: 127px;
 

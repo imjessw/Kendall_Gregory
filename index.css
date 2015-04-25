@@ -45,20 +45,20 @@ body{
 	position: absolute;
 }
 
-/*#Fade{ 
+#Fade{ 
 	position:relative;
-	top:-260px;
+	/*top:-260px;*/
 	width: 840px;
    
 }
 
 #GE{
-	position: relative;
+	position: fixed;
 	width: 349px;
 	margin-right: 127px;
 
 
-}*/
+}
 
 #Patron{
 

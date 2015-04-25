@@ -1,0 +1,29 @@
+/*MenuPage*/
+body{
+
+	background-color: black;
+	color: white;
+}
+
+ul.Main
+{
+    list-style-type: none;
+    text-align: center;
+
+}
+
+li{
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}

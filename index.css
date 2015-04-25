@@ -1,6 +1,11 @@
+
 body{
 	border: black 10px solid;
+	font-family: brandon-grotesque,Arial,Helvetica,sans-serif;
+
 }
+
+
 #MenuBar{
 	text-align: center;
 	display: inline-block;
@@ -31,17 +36,19 @@ body{
 	margin-right: 70px;
 }
 
+
 /*positioning of all the images*/
 #headerImage{
 	text-align: center;
 	z-index: 7;
 	top: 50px;
+	position: absolute;
 }
 
-#Fade{ 
+/*#Fade{ 
 	position:relative;
 	top:-260px;
-	width: 937px;
+	width: 840px;
    
 }
 
@@ -49,9 +56,9 @@ body{
 	position: relative;
 	width: 349px;
 	margin-right: 127px;
-	margin-top: -600px;
 
-}
+
+}*/
 
 #Patron{
 

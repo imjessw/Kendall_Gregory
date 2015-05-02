@@ -19,7 +19,6 @@ body{
 
 ul
 {
-	margin-top: 100px;
     list-style-type: none;
     text-align: center;
 
@@ -40,8 +39,16 @@ a:hover {
     text-decoration: none;
     color: white;
 }
+.Main{
+	width: 75%;
+	float: left;
+}
 .Main ul{
-	margin-top: 400px;
+	margin-top: 100px;
+	display: inline-block;
+	float: right;
+	padding-right: 85px;
+
 }
 
 .Main li{
@@ -49,6 +56,15 @@ a:hover {
 }
 
 ul.sub{
+	display: inline-block;
 	float: right;
-	display: none;
+	top: 150px;
+	height: 100%;
+	margin-top: 50px;
+	margin-right: 15px;
+	/*display: none;*/
+}
+
+.sub li{
+	padding:17px;
 }

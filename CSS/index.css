@@ -14,9 +14,8 @@
 
 body{
 	border: black 10px solid;
-}
-p{
 	font-family: 'brandon_grotesque_regularRg', Arial, sans-serif;
+
 }
 
 #topMenu{
@@ -31,7 +30,6 @@ p{
 	width: 100%;
 	margin-top: 150px;
 	margin-bottom: 100px;
-
 }
 
 .socials{
@@ -39,7 +37,6 @@ p{
 	margin-left: 25px;
 	color: Black;
 	text-decoration: underline;
-	font-family: 'brandon_grotesque_regularRg', Arial, sans-serif !important;
 }
 
 .whiteOverlay:hover{
@@ -137,7 +134,6 @@ p{
 }
 
 p{
-	font-family: 'brandon_grotesque_regularRg', Arial, sans-serif;
 	text-align: center;
 }
 

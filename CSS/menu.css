@@ -1,0 +1,53 @@
+/*MenuPage*/
+@font-face{
+	font-family: 'brandon_grotesque_regularRg';
+    src: url('brandon_reg-webfont.eot');
+    src: url('brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_reg-webfont.woff2') format('woff2'),
+         url('brandon_reg-webfont.woff') format('woff'),
+         url('brandon_reg-webfont.ttf') format('truetype'),
+         url('brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	font-family: 'brandon_grotesque_regularRg', Arial, sans-serif;
+	background-color: black;
+	color: white;
+}
+
+ul
+{
+    list-style-type: none;
+    text-align: center;
+
+}
+
+li{
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+.Main ul{
+	margin-top: 400px;
+}
+
+.Main li{
+	font-size: 90px;
+}
+
+ul.sub{
+	float: right;
+	display: none;
+}

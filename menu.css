@@ -5,7 +5,7 @@ body{
 	color: white;
 }
 
-ul.Main
+ul
 {
     list-style-type: none;
     text-align: center;
@@ -15,8 +15,8 @@ ul.Main
 li{
 	text-transform: uppercase;
 	text-decoration: none;
-
 }
+
 
 a{
 	color: white;
@@ -26,4 +26,16 @@ a{
 a:hover {
     text-decoration: none;
     color: white;
+}
+.Main ul{
+	margin-top: 400px;
+}
+
+.Main li{
+	font-size: 90px;
+}
+
+ul.sub{
+	float: right;
+	display: none;
 }

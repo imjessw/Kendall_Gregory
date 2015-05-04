@@ -11,10 +11,23 @@
     font-style: normal;
 
 }
+@import url("//hello.myfonts.net/count/2e14eb");
+  
+@font-face {
+	font-family: 'NarzissTextMedium';
+	src: url('webfonts/2E14EB_0_0.eot');
+	src: url('webfonts/2E14EB_0_0.eot?#iefix') format('embedded-opentype'),
+	url('webfonts/2E14EB_0_0.woff2') format('woff2'),
+	url('webfonts/2E14EB_0_0.woff') format('woff'),
+	url('webfonts/2E14EB_0_0.ttf') format('truetype');
+}
 body{
-	font-family: 'brandon_grotesque_regularRg', Arial, sans-serif;
+	
 	background-color: black;
 	color: white;
+}
+#parent{
+	height: 600px;
 }
 
 ul
@@ -52,6 +65,7 @@ a:hover {
 }
 
 .Main li{
+	font-family: 'NarzissTextMedium';
 	font-size: 90px;
 }
 
@@ -62,9 +76,10 @@ ul.sub{
 	height: 100%;
 	margin-top: 50px;
 	margin-right: 15px;
-	/*display: none;*/
+	display: none;
 }
 
 .sub li{
+	font-family: 'brandon_grotesque_regularRg', Arial, sans-serif;
 	padding:17px;
 }

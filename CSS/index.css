@@ -35,9 +35,9 @@ body{
 .socials{
 	margin-right: 25px;
 	margin-left: 25px;
-	color: Black;
+	color: black;
 	text-decoration: underline;
-	
+
 }
 
 .whiteOverlay:hover{
@@ -45,8 +45,11 @@ body{
 
 }
 
+.center{
+	text-align: center;
+	margin: 0 auto;
+}
 
-/*images*/
 .left{
 	float: left;
 	margin-left: 70px;
@@ -57,7 +60,39 @@ body{
 	margin-right: 70px;
 }
 
+.bottom{
+	bottom: 30px;
+}
 
+.hide{
+	display: none;
+}
+
+.w100{
+	width: 100%;
+}
+
+.w50{
+	width: 50%;
+}
+
+.FloatL{
+	float: left; 
+}
+
+.FloatR{
+	float: right; 
+}
+
+.tAc{
+	text-align: center;
+}
+
+.iLb{
+	display: inline-block;
+}
+
+/*images for home page*/
 /*positioning of all the images*/
 #headerImage{
 	text-align: center;
@@ -136,6 +171,55 @@ body{
 
 p{
 	text-align: center;
+}
+
+
+/*Art of healthy hair*/
+
+#AOHHHeader{
+	width: 98%;
+}
+
+img#AOHH_Section1 {
+  width: 100%
+}
+
+video {
+  width: 100%    !important;
+  height: 700px   !important;
+}
+
+
+/*AboutMe Page*/
+
+
+body#aboutMeImage{
+	background-image: url('../AboutMe/aboutMe.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.divSpace{
+	height:60px;
+}
+
+
+/*CoverGirl*/
+
+#CG_Section1{
+	width: 1000px;
+}
+
+.cg_h0{
+	width: 710px;
+}
+
+/*LG*/
+
+
+#LG_Twitter{
+	width: 80%;
+	margin-top: 150px;
 }
 
 

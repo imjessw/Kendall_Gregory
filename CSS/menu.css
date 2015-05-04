@@ -11,16 +11,20 @@
     font-style: normal;
 
 }
-@import url("//hello.myfonts.net/count/2e14eb");
-  
+
+@import url("//hello.myfonts.net/count/2e1b5b");
+
 @font-face {
-	font-family: 'NarzissTextMedium';
-	src: url('webfonts/2E14EB_0_0.eot');
-	src: url('webfonts/2E14EB_0_0.eot?#iefix') format('embedded-opentype'),
-	url('webfonts/2E14EB_0_0.woff2') format('woff2'),
-	url('webfonts/2E14EB_0_0.woff') format('woff'),
-	url('webfonts/2E14EB_0_0.ttf') format('truetype');
+	font-family: 'NarzissMedium-Drops';
+	src: url('2E1B5B_0_0.eot');
+	src: url('2E1B5B_0_0.eot?#iefix') format('embedded-opentype'),
+	url('2E1B5B_0_0.woff2') format('woff2'),
+	url('2E1B5B_0_0.woff') format('woff'),
+	url('2E1B5B_0_0.ttf') format('truetype');
 }
+ 
+
+
 body{
 	
 	background-color: black;
@@ -65,7 +69,7 @@ a:hover {
 }
 
 .Main li{
-	font-family: 'NarzissTextMedium';
+	font-family: 'NarzissMedium-Drops', Arial, sans-serif;
 	font-size: 90px;
 }
 

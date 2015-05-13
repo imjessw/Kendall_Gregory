@@ -67,6 +67,9 @@ body{
 .hide{
 	display: none;
 }
+.h100{
+	height: 100%;
+}
 
 .w100{
 	width: 100%;
@@ -91,6 +94,7 @@ body{
 .iLb{
 	display: inline-block;
 }
+
 
 /*images for home page*/
 /*positioning of all the images*/
@@ -171,6 +175,7 @@ body{
 
 p{
 	text-align: center;
+	margin: 0 auto;
 }
 
 
@@ -222,6 +227,11 @@ body#aboutMeImage{
 	margin-top: 150px;
 }
 
+.middleText{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 
+}
 
 

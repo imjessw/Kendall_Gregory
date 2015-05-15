@@ -74,9 +74,16 @@ body{
 .w100{
 	width: 100%;
 }
+.w85{
+	width: 85%;
+}
 
 .w50{
 	width: 50%;
+}
+
+.w40{
+	width: 40%;
 }
 
 .FloatL{

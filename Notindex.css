@@ -59,6 +59,12 @@ p{
 	margin-right: 70px;
 }
 
+/*Setting Height of white space sections*/
+.mH200{
+	min-height:200px !important;
+}
+
+
 
 /*positioning of all the images*/
 #headerImage{

@@ -81,6 +81,9 @@ body{
 .w50{
 	width: 50%;
 }
+.w49{
+	width: 49%;
+}
 
 .w40{
 	width: 40%;
@@ -104,6 +107,11 @@ body{
 
 .m3{
 	margin-top: 3px;
+}
+
+/*Setting Height of white space sections*/
+.mH200{
+	min-height:200px !important;
 }
 
 

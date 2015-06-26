@@ -13,6 +13,7 @@
 }
 
 body{
+	margin: 0px;
 	border: black 10px solid;
 	font-family: 'brandon_grotesque_regularRg', Arial, sans-serif;
 

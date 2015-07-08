@@ -115,6 +115,10 @@ body{
 	min-height:200px !important;
 }
 
+.mT200px{
+	margin-top: 200px;
+}
+
 
 /*images for home page*/
 /*positioning of all the images*/

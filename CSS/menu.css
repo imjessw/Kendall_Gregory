@@ -28,7 +28,7 @@
 body{
 	
 	background-color: black;
-	color: white;
+	color: grey;
 }
 #parent{
 	height: 600px;
@@ -48,7 +48,7 @@ li{
 
 
 a{
-	color: white;
+	color: grey;
 	text-decoration: none;
 }
 
@@ -87,3 +87,13 @@ ul.sub{
 	font-family: 'brandon_grotesque_regularRg', Arial, sans-serif;
 	padding:17px;
 }
+
+#showUl:hover{
+	text-decoration: none;
+	color: white;
+}
+#showUl{
+	text-decoration: none;
+
+}
+

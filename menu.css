@@ -1,8 +1,8 @@
 /*MenuPage*/
 body{
 
-	background-color: black;
-	color: white;
+	background-color: yellow;
+	color: red;
 }
 
 ul
@@ -19,7 +19,6 @@ li{
 
 
 a{
-	color: white;
 	text-decoration: none;
 }
 

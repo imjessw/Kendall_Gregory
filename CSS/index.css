@@ -41,10 +41,7 @@ body{
 
 }
 
-.whiteOverlay:hover{
-	opacity: .5;
 
-}
 
 .center{
 	text-align: center;
@@ -128,14 +125,14 @@ body{
 	position: absolute;
 }
 
-#Fade{ 
+.Fade{ 
 	position:relative;
-	top:283px;
+	top:301px;
 	width: 840px;
    
 }
 
-#GE{
+.GE{
 	position: relative;
 	width: 349px;
 	margin-top: 500px;
@@ -144,54 +141,54 @@ body{
 
 }
 
-#KALEIDOSCOPE{
+.KALEIDOSCOPE{
 	margin-top: 250px;
 
 }
 
-#ArtofHealthyHair{
+.ArtofHealthyHair{
 	width: 700px;
 	margin-top: 30px;
 
 }
 
-#Nexxus{
+.Nexxus{
 	z-index: 2;
 	height: 640px;
 	margin-top: -225px;
 
 }
 
-#CoverGirl{
+.CoverGirl{
 	height: 450px;
 	margin-top: 200px;
 	margin-right: 110px;
 
 }
 
-#PRTR{
+/*#PRTR{
 
 }
-
-#Pantnene{
+*/
+.Pantnene{
 	width: 600px;
 	margin-top: 100px;
 
 }
 
-#LG{
+.LG{
 
 	width: 676px;
 	margin-top: 100px;
 }
 
-#TumsProduct{
+.TumsProduct{
 	margin-top: 150px;
 	width: 600px;
 
 }
 
-#StIves{
+.StIves{
 	margin-top: 90px;
 	
 }
@@ -257,4 +254,16 @@ body#aboutMeImage{
 
 }
 
+.no-hover {
+  display: block;
+}
+.on-hover {
+  display: none;
+}
+.card:hover > .on-hover {
+  display: block;
+}
+.card:hover > .no-hover {
+  display: none;
+}
 

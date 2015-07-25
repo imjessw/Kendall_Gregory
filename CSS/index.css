@@ -110,10 +110,8 @@ body{
 .H75{
 	height: 75%;
 }
-.wH50{
-	width: 50%;
-	height:50%;
-}
+
+
 
 /*Setting Height of white space sections*/
 .mH200{
@@ -285,5 +283,10 @@ body#aboutMeImage{
 
 .index{
 	z-index: 7;
+}
+
+[data-carousel-3d]{
+	border:none;
+	background:none;
 }
 

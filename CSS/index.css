@@ -107,6 +107,10 @@ body{
 	margin-top: 3px;
 }
 
+.H75{
+	height: 75%;
+}
+
 /*Setting Height of white space sections*/
 .mH200{
 	min-height:200px !important;
@@ -266,5 +270,10 @@ body#aboutMeImage{
 }
 .card:hover > .no-hover {
   display: none;
+}
+
+#socialRTR{
+	background-image: url("RTR/SocialBackground.png") !important;
+
 }
 

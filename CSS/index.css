@@ -65,6 +65,10 @@ body{
 .hide{
 	display: none;
 }
+
+.m0a{
+	margin: 0 auto;
+}
 .h100{
 	height: 100%;
 }
@@ -111,6 +115,11 @@ body{
 	height: 75%;
 }
 
+
+.vA{
+	vertical-align: center;
+	height: 100%;
+}
 
 
 /*Setting Height of white space sections*/
@@ -283,11 +292,17 @@ body#aboutMeImage{
 
 .index{
 	z-index: 7;
-	
+
 }
 
 [data-carousel-3d]{
 	border:none;
 	background:none;
 }
+
+/*RTR*/
+#compRTR{
+	width: 64%;
+}
+
 

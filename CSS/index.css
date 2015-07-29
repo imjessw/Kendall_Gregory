@@ -112,7 +112,7 @@ body{
 }
 
 .H75{
-	height: 75%;
+	height: 90%;
 }
 
 
@@ -290,6 +290,14 @@ body#aboutMeImage{
     height: 348px;
 }
 
+.socialButtons{
+	height: 50%;
+	margin-top: 95px;
+
+}
+
+
+
 .index{
 	z-index: 7;
 
@@ -302,7 +310,10 @@ body#aboutMeImage{
 
 /*RTR*/
 #compRTR{
-	width: 64%;
+	width: 75%;
 }
 
+#dry{
+	height: 825px;
+}
 

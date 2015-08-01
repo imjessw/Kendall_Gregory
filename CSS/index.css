@@ -111,7 +111,7 @@ body{
 	margin-top: 3px;
 }
 
-.H75{
+.h90{
 	height: 90%;
 }
 
@@ -120,6 +120,11 @@ body{
 	vertical-align: center;
 	height: 100%;
 }
+
+.h75{
+	height: 60%
+}
+
 
 
 /*Setting Height of white space sections*/
@@ -270,6 +275,8 @@ body#aboutMeImage{
 
 }*/
 
+/*Hover changing Images*/
+
 .no-hover {
   display: block;
 }
@@ -282,6 +289,12 @@ body#aboutMeImage{
 .card:hover > .no-hover {
   display: none;
 }
+
+
+
+
+
+
 
 #socialRTR{
 	background-image: url('RTR/SocialBackground.png');

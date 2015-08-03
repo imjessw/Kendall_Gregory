@@ -125,6 +125,20 @@ body{
 	height: 60%
 }
 
+.pl20p{
+	padding-left: 19%;
+}
+
+.pR100px{
+	padding-right: 75px;
+}
+
+.w450{
+	width: 450px;
+}
+
+
+
 
 
 /*Setting Height of white space sections*/

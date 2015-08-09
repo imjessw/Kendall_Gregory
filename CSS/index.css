@@ -22,6 +22,11 @@ body{
 	font-family: 'brandon_grotesque_regularRg', Arial, sans-serif;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+
 #topMenu{
 	right: 20px;
 	position: fixed;
@@ -43,17 +48,15 @@ body{
 	-webkit-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern=1";
+
 }
+
 
 .socials{
 	margin-right: 25px;
 	margin-left: 25px;
 	color: black;
-	text-decoration: underline;
-
 }
-
-
 
 .center{
 	text-align: center;
@@ -102,6 +105,13 @@ body{
 .w40{
 	width: 40%;
 }
+.mb200{
+ 	margin-bottom: 200px;
+}
+
+.pb30{
+	padding-bottom: 30px;
+}
 
 .FloatL{
 	float: left; 
@@ -147,6 +157,13 @@ body{
 
 .w450{
 	width: 450px;
+}
+
+.absolute{
+	position: absolute;
+}
+.relative{
+	position: relative;
 }
 
 
@@ -258,7 +275,7 @@ img#AOHH_Section1 {
 
 video {
   width: 100%    !important;
-  height: 700px   !important;
+ /* height: 700px   !important;*/
 }
 
 

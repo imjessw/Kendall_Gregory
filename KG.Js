@@ -8,3 +8,15 @@ $(document).ready(function(){
 
 	});
 });
+
+var displayImage = $('#displayImage')
+var video = $('.video');
+
+displayImage.click(function() {
+	displayImage.hide();
+	video.removeClass("hide");
+	video.trigger("play");
+});
+
+
+

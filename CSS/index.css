@@ -392,6 +392,15 @@ body#aboutMeImage{
 /*GE*/
 .overSationary{
 	z-index: 3;
+	margin:-190px auto;
+}
+.addStat{
+	margin-top: 190px;
+}
+
+#triangleBackground{
+	background-image: url("GE_background.png");
+	background-size: 100%;
 }
 
 

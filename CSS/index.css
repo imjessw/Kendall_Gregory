@@ -51,10 +51,20 @@ a{
 
 }
 
-
 .socials{
 	margin-right: 25px;
 	margin-left: 25px;
+	color: black;
+	text-decoration: none;
+}
+.socials:hover{
+	text-decoration: none;
+	color: black;
+
+}
+
+.socials:active{
+	text-decoration: none;
 	color: black;
 }
 
@@ -83,6 +93,9 @@ a{
 
 .m0a{
 	margin: 0 auto;
+}
+.m10a{
+	margin: 10 auto;
 }
 .h100{
 	height: 100%;
@@ -135,6 +148,9 @@ a{
 
 .h90{
 	height: 90%;
+}
+.h850p{
+	height: 850px;
 }
 
 

@@ -389,5 +389,10 @@ body#aboutMeImage{
 	height: 825px;
 }
 
+/*GE*/
+.overSationary{
+	z-index: 3;
+}
+
 
 

@@ -191,6 +191,13 @@ a{
 	margin-top: 100px;
 }
 
+.mt200px{
+	margin-top: 200px;
+}
+.h700{
+	height: 700px;
+}
+
 
 
 
@@ -372,7 +379,7 @@ body#aboutMeImage{
 }
 
 .socialButtons{
-	height: 50%;
+	height: 42%;
 	margin-top: 95px;
 
 }
@@ -411,6 +418,14 @@ body#aboutMeImage{
 	background-image: url("GE_background.png");
 	background-size: 100%;
 }
+
+
+/*AOHH*/
+#Collage{
+	height: 700px;
+}
+
+/*CoverGirl*/
 
 
 

@@ -7,38 +7,39 @@ $(document).ready(function(){
 
 
 	});
-});
-
-var displayImage = $('#displayImage')
-var video = $('.Playvideo');
 
 
-displayImage.on("click",function() {
-	// displayImage.hide();
-	displayImage.addClass("hide");
+	var displayImage = $('#displayImage')
+	var video = $('.Playvideo');
 
-	if (displayImage.hide=true) {
-		video.removeClass("hide");
-		video.trigger("play");
+
+	displayImage.on("click",function() {
+		// displayImage.hide();
+		displayImage.addClass("hide");
+
+		if (displayImage.hide=true) {
+			video.removeClass("hide");
+			video.trigger("play");
+			
+
+		} else if(video.on('click',"play") == true){
+
+			console.log("add pause function")
+		};
+
+
+		video.on('ended',function(){
+		    console.log('Video has ended!');
+		    video.addClass("hide");
+		    displayImage.removeClass("hide");
+			console.log("should see displayImage")
+
+	    });
+
+
 		
-
-	} else if(video.on('click',"play") == true){
-
-		console.log("add pause function")
-	};
-
-
-	video.on('ended',function(){
-	    console.log('Video has ended!');
-	    video.addClass("hide");
-	    displayImage.removeClass("hide");
-		console.log("should see displayImage")
-
-    });
-
-
-	
-	
+		
+	});
 });
 
 

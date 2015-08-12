@@ -3,6 +3,7 @@
 		<link rel=icon href=favicon.png sizes="16x16" type="Favicon.png">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="scripts/bower_components/carousel-3d/dist/styles/jquery.carousel-3d.default.css" />
+		<link rel="stylesheet" type="text/css" href="CSS/cbpGridGallery.css"> 
 		<link rel="stylesheet" type="text/css" href="CSS/index.css"> 
 		<title>Kendall Gregory</title>
 	</head>
@@ -41,6 +42,98 @@
 		<div class="center w100 mT200px">
 			<img class="w100" src="Fade/SPREAD_01.png">
 		</div>
+
+		<!-- Grid Gallery -->
+		<div id="grid-gallery" class="grid-gallery">
+			<section class="grid-wrap">
+				<ul class="grid">
+					<li class="grid-sizer"></li><!-- for Masonry column width -->
+					<li>
+						<figure>
+							<img src="Fade/SPREAD_01.png" alt="img01"/>
+							<figcaption><h3>Letterpress asymmetrical</h3><p>Chillwave hoodie ea gentrify aute sriracha consequat.</p></figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="Fade/SPREAD_#2_.png" a/>
+							<figcaption><h3>Vice velit chia</h3><p>Laborum tattooed iPhone, Schlitz irure nulla Tonx retro 90's chia cardigan quis asymmetrical paleo. </p></figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="Fade/SPREAD_#3_.png" alt="img03"/>
+							<figcaption><h3>Brunch semiotics</h3><p>Ex disrupt cray yr, butcher pour-over magna umami kitsch before they sold out commodo.</p></figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="Fade/SPREAD_#4_.png" alt="img04"/>
+							<figcaption><h3>Chillwave nihil occupy</h3><p>In post-ironic gluten-free deserunt, PBR&B non pork belly cupidatat polaroid. </p></figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="Fade/SPREAD_#5_.png" alt="img05"/>
+							<figcaption><h3>Kale chips lomo biodiesel</h3><p>Pariatur food truck street art consequat sustainable, et kogi beard qui paleo. </p></figcaption>
+						</figure>
+					</li>
+
+				</ul>
+				<nav>
+					<span class="icon nav-prev"></span>
+					<span class="icon nav-next"></span>
+					<span class="icon nav-close"></span>
+				</nav>
+				<div class="info-keys icon">Navigate with arrow keys</div>
+			</section><!-- // slideshow -->
+		</div><!-- // grid-gallery -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		<div>
 			<p>sfals;dfjlsajflasjfasfjlasfjalsf</p>
 		</div>
@@ -92,6 +185,16 @@
 	<script src="scripts/bower_components/waitForImages/dist/jquery.waitforimages.js"></script>
 	<script src="scripts/bower_components/modernizr/modernizr.js"></script>
 	<script src="scripts/bower_components/carousel-3d/dist/jquery.carousel-3d.min.js" ></script>
+<!-- GRID -->
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpGridGallery.js"></script>
+<script>
+	new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+</script>
+
+<!-- Personal JS -->
 
 	<script type="text/javascript" src="KG.js"></script> 
 </html> 

@@ -430,6 +430,7 @@ body#aboutMeImage{
 
 #dry{
 	height: 825px;
+	margin-left: 70px;
 }
 
 /*GE*/
@@ -453,13 +454,6 @@ body#aboutMeImage{
 }
 
 /*Fade*/
-#wowslider-container1{
-	height: 100%;
 
-}
-
-.ws_images{
-	height: 100%;
-}
 
 

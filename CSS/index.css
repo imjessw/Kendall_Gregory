@@ -96,6 +96,9 @@ a{
 	float: right;
 	margin-right: 70px;
 }
+.rightNoMargin{
+	float: right;	
+}
 
 .bottom{
 	bottom: 30px;
@@ -436,13 +439,18 @@ body#aboutMeImage{
 /*GE*/
 .overSationary{
 	z-index: 3;
-	margin:-190px auto;
+
 }
+
 .addStat{
 	margin-top: 190px;
 }
-
 #triangleBackground{
+	background-image: url("GE_BlueTriangle1Background.png");
+
+}
+
+#triangleBackground2{
 	background-image: url("GE_background.png");
 	background-size: 100%;
 }

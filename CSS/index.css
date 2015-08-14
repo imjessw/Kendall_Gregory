@@ -454,41 +454,6 @@ body#aboutMeImage{
 
 
 
-/*Fade Collage*/
-.vs-triplelayout .vs-wrapper .vs-left {
-	left: -70%; /* 80 - 10 */
-}
-
-.vs-triplelayout .vs-wrapper .vs-left-outer {
-	left: -150%; /* - 70 - 80 */
-}
-
-.vs-triplelayout .vs-wrapper .vs-current {
-	position: relative;
-	z-index: 100;
-}
-
-.vs-triplelayout .vs-wrapper .vs-right {
-	left: 90%; /* 80 + 10 */
-}
-
-.vs-triplelayout .vs-wrapper .vs-right-outer {
-	left: 170%; /* 90 + 80 */
-}
-
-
-.vs-container.vs-move-right .vs-left,
-.vs-container.vs-move-right .vs-left-outer,
-.vs-container.vs-move-right .vs-current,
-.vs-container.vs-move-right .vs-right {
-	transition: transform 0.5s;
-	transform: translate3d(100%,0,0);
-}
-
-#section-2{
-	background-image: url('FadeMag.png');
-	width: 100%;
-}
 
 
 

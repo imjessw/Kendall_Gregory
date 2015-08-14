@@ -452,8 +452,14 @@ body#aboutMeImage{
 	height: 700px;
 }
 
+/*Fade*/
+#wowslider-container1{
+	height: 100%;
 
+}
 
-
+.ws_images{
+	height: 100%;
+}
 
 

@@ -9,7 +9,7 @@
 	position: relative;
 	width: 100%;
 	max-width: 100%;
-	max-height:360px;
+	height:100%;
 	margin:0px auto 0px;
 	z-index:90;
 	text-align:left; /* reset align=center */
@@ -51,7 +51,7 @@
 	left:0;
 	top:0;
 	height:100%;
-	max-height:360px;
+	max-height:100%;
 	max-width: 100%;
 	vertical-align: top;
 	border:none;
@@ -60,7 +60,7 @@
 #wowslider-container1 .ws_images ul a{
 	width:100%;
 	height:100%;
-	max-height:360px;
+	height:100%;
 	display:block;
 	color:transparent;
 }
@@ -76,7 +76,7 @@
 	margin:0;
 }
 #wowslider-container1 .ws_images > div > img {
-	max-height:360px;
+	max-height:100%;
 }
 
 #wowslider-container1 .ws_images iframe {
@@ -125,13 +125,12 @@
 }
 
 #wowslider-container1 .ws_photoItem {
-	border: 2em solid #fff;
 	margin-left: -2em;
 	margin-top: -2em;
 }
 #wowslider-container1 .ws_cube_side {
 	background: #A6A5A9;
-}
+
 
 
 #wowslider-container1.ws_gestures {
@@ -180,7 +179,7 @@
 	margin-left: -3.5em;
 	margin-top: -2.5em;
 }
-#wowslider-container1 .ws_video_btn.ws_youtube div {
+/*#wowslider-container1 .ws_video_btn.ws_youtube div {
 	background-position: 0 0;
 }
 #wowslider-container1 .ws_video_btn.ws_youtube:hover div {
@@ -191,19 +190,18 @@
 }
 #wowslider-container1 .ws_video_btn.ws_vimeo:hover div {
 	background-position: 100% 100%;
-}
+}*/
 
 #wowslider-container1 .ws_playpause.ws_hide {
 	display: none !important;
 }
 #wowslider-container1 .ws_cover{
-	border:solid 8px black;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	width: auto !important;
-	height: auto !important;
+	height: 100%;
 	opacity:0.3 !important;
 	background: transparent !important;
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30);

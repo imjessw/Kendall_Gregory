@@ -25,9 +25,7 @@
 	url('2E1B5B_0_0.woff') format('woff'),
 	url('2E1B5B_0_0.ttf') format('truetype');
 }
-html { 
-	height: 100%;
-}
+html { height: 100%; }
 
 body{
 	margin: 0px;
@@ -116,6 +114,13 @@ a{
 }
 .rightNoMargin{
 	float: right;	
+}
+.ml0{
+	margin-left: 0;
+}
+
+.mr0{
+	margin-right: 0;
 }
 
 .bottom{
@@ -278,7 +283,7 @@ a{
 
 .Fade{ 
 	position:relative;
-	top:301px;
+	top:290px;
 	width: 840px;
    
 }
@@ -286,25 +291,25 @@ a{
 .GE{
 	position: relative;
 	width: 349px;
-	margin-top: 500px;
+/*	margin-top: 500px;*/
 	margin-right: 153px;
 
 
 }
 
 .KALEIDOSCOPE{
-	margin-top: 350px;
+/*	margin-top: 350px;*/
 
 }
 
 .ArtofHealthyHair{
 	width: 700px;
-	margin-top: 30px;
+	margin-top: -630px;
 
 }
 
 .Nexxus{
-	/*Fix width*/
+
 	z-index: 2;
 	height: 640px;
 	margin-top: -118px
@@ -313,34 +318,35 @@ a{
 
 .CoverGirl{
 	height: 450px;
-	margin-top: 200px;
 	margin-right: 110px;
+	margin-top: -200px;
 
 }
 
-/*#PRTR{
+#PRTR{
+	margin-top: -300px;
 }
-*/
+
 .Pantnene{
 	width: 600px;
-	margin-top: 100px;
+	margin-top: -400px;
 
 }
 
 .LG{
 
 	width: 676px;
-	margin-top: 100px;
+/*	margin-top: 100px;*/
 }
 
 .TumsProduct{
-	margin-top: 150px;
+/*	margin-top: 150px;*/
 	width: 600px;
 
 }
 
 .StIves{
-	margin-top: 90px;
+/*	margin-top: 90px;*/
 	
 }
 
@@ -362,7 +368,7 @@ img#AOHH_Section1 {
 
 video {
   width: 100%    !important;
- /* height: 700px   !important;*/
+
 }
 
 
@@ -418,6 +424,16 @@ video {
 }
 .card:hover > .no-hover {
   display: none;
+}
+.no-hover {
+	overflow: visible;
+}
+.on-hover {
+	overflow: visible;
+}
+
+.clear{
+	clear: both;
 }
 
 
@@ -494,7 +510,4 @@ video {
 	font-size: 100px;
 }
 
-.card{
-	/*height: 100%;*/
-}
 

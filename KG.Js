@@ -23,14 +23,8 @@ $(document).ready(function(){
 		}
 		
 		video.on("click",function(){
-			console.log("changed triggers")
-			if (video.play=true) {
-				video.trigger("pause");
-			}
-			else{
-				video.trigger("play");
-				console.log("changed triggers2")
-			}
+			console.log("clicked")
+			 $(this).get(0).paused ? $(this).get(0).play() : $(this).get(0).pause();
 
 
 		});

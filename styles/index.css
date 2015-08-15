@@ -51,7 +51,7 @@ a{
 	
 }
 
-.MenuBar{
+/*.MenuBar{
 	text-align: center;
 	width: 65%;
 	margin:17 auto;
@@ -65,6 +65,16 @@ a{
 	margin-left: 117px;
 	width: 100%;
 	margin-top: 160px;
+	letter-spacing: 2px;
+	-webkit-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern=1";
+
+}
+
+.homeSocialLinks{
+	margin:0 auto;
+	width: 80%;
 	letter-spacing: 2px;
 	-webkit-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern";
@@ -105,22 +115,13 @@ a{
 .socials:active{
 	text-decoration: none;
 	color: black;
-}
+}*/
 
 .center{
 	text-align: center;
 	margin: 0 auto;
 }
 
-.left{
-	float: left;
-	margin-left: 70px;
-}
-
-.right{
-	float: right;
-	margin-right: 70px;
-}
 .rightNoMargin{
 	float: right;	
 }
@@ -300,16 +301,15 @@ a{
 .GE{
 	position: relative;
 	width: 349px;
-/*	margin-top: 500px;*/
 	margin-right: 153px;
 
 
 }
 
-.KALEIDOSCOPE{
-/*	margin-top: 350px;*/
+/*.KALEIDOSCOPE{
 
-}
+
+}*/
 
 .ArtofHealthyHair{
 	width: 700px;
@@ -355,7 +355,7 @@ a{
 }
 
 .StIves{
-	margin-top: -410px;
+	margin-top: -390px;
 	
 }
 
@@ -446,11 +446,6 @@ video {
 }
 
 
-
-
-
-
-
 #socialRTR{
 	background-image: url('RTR/SocialBackground.png');
 	background-size: cover;
@@ -517,6 +512,136 @@ video {
 	margin-top: 200px;
 	text-transform: uppercase;
 	font-size: 100px;
+}
+
+
+
+
+/*Laptop Screens*/
+
+
+@media (min-width: 700px) and (max-width: 1700px){ 
+
+.MenuBar{
+	text-align: center;
+	width: 65%;
+	margin:17 auto;
+	text-decoration: none;
+	letter-spacing: 2px;
+	-webkit-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern=1";
+}
+#MenuBar2{
+	margin-left: 117px;
+	width: 100%;
+	margin-top: 160px;
+	letter-spacing: 2px;
+	-webkit-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern=1";
+
+}
+
+.homeSocialLinks{
+	margin:0 auto;
+	width: 80%;
+	letter-spacing: 2px;
+	-webkit-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern=1";
+
+}
+
+.consocials{
+	bottom: 240;
+	margin-left: 70px;
+	margin-right: 70px;
+	width: 80%;
+	text-decoration: none;
+}
+
+.consocials:hover{
+	border-bottom:solid black 2px;
+	padding-bottom: 20px;
+	text-decoration: none;
+	color: black;	
+}
+
+.socials{
+	margin-right: 20px;
+	margin-left: 20px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.socials:hover{
+	border-bottom:solid black 2px;
+	padding-bottom: 15px;
+	text-decoration: none;
+	color: black;
+
+}
+
+.socials:active{
+	text-decoration: none;
+	color: black;
+}
+.left{
+	float: left;
+	margin-left: 70px;
+}
+
+.right{
+	float: right;
+	margin-right: 70px;
+}
+
+}
+
+/*Large desktop screens*/
+
+@media (min-width: 1701px){
+
+.left{
+	float: left;
+	margin-left: 370px;
+}
+
+.right{
+	float: right;
+	margin-right: 370px;
+}
+
+#headerImage{
+	width: 80%;
+}
+.Fade {
+    position: relative;
+    top: 436px;
+    width: 979px;
+    margin-bottom: 100px;
+}
+.CoverGirl {
+    height: 519px;
+    margin-right: 626;
+    margin-top: -304px;
+}
+
+.Nexxus {
+    z-index: 2;
+    height: 881px;
+    margin-top: -118px;
+
+}
+
+.GE{
+	width: 401px;
+	margin-right: 619px;
+}
+
+
+
 }
 
 

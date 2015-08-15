@@ -20,12 +20,20 @@ $(document).ready(function(){
 			video.removeClass("hide");
 			video.trigger("play");
 			
+		}
+		
+		video.on("click",function(){
+			console.log("changed triggers")
+			if (video.play=true) {
+				video.trigger("pause");
+			}
+			else{
+				video.trigger("play");
+				console.log("changed triggers2")
+			}
 
-		} else if (video.play == true){
 
-			console.log("add pause function")
-		};
-
+		});
 
 		video.on('ended',function(){
 		    console.log('Video has ended!');
@@ -33,12 +41,9 @@ $(document).ready(function(){
 		    displayImage.removeClass("hide");
 			console.log("should see displayImage")
 
-	    });
-
-
-		
-		
+	    });				
 	});
+
 });
 
 

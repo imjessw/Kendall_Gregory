@@ -60,11 +60,20 @@ a{
 	-webkit-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern=1";
-
+}
+#MenuBar2{
+	margin-left: 117px;
+	width: 100%;
+	margin-top: 160px;
+	letter-spacing: 2px;
+	-webkit-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern=1";
 
 }
+
 .consocials{
-	bottom: 40;
+	bottom: 240;
 	margin-left: 70px;
 	margin-right: 70px;
 	width: 80%;
@@ -319,17 +328,17 @@ a{
 .CoverGirl{
 	height: 450px;
 	margin-right: 110px;
-	margin-top: -200px;
+	margin-top: -304px;
 
 }
 
 #PRTR{
-	margin-top: -300px;
+	margin-top: -400px;
 }
 
 .Pantnene{
 	width: 600px;
-	margin-top: -400px;
+	margin-top: -466px;
 
 }
 
@@ -340,13 +349,13 @@ a{
 }
 
 .TumsProduct{
-/*	margin-top: 150px;*/
+    margin-top: -992px;
 	width: 600px;
 
 }
 
 .StIves{
-/*	margin-top: 90px;*/
+	margin-top: -410px;
 	
 }
 

@@ -14,7 +14,6 @@ $(document).ready(function(){
 
 
 	displayImage.on("click",function() {
-		// displayImage.hide();
 		displayImage.addClass("hide");
 
 		if (displayImage.hide=true) {
@@ -22,7 +21,7 @@ $(document).ready(function(){
 			video.trigger("play");
 			
 
-		} else if(video.on('click',"play") == true){
+		} else if (video.play == true){
 
 			console.log("add pause function")
 		};

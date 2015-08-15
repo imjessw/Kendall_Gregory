@@ -33,6 +33,7 @@ body{
 	font-family: 'brandon_grotesque_regularRg', Arial, sans-serif;
 }
 
+
 a{
 	text-decoration: none;
 	color: black;
@@ -42,6 +43,7 @@ a{
 	right: 20px;
 	position: fixed;
 	letter-spacing: 4px;
+	z-index: 24;
 	-webkit-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern=1";

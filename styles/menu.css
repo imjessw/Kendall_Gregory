@@ -118,5 +118,46 @@ ul.sub{
 	clear:both;
 }
 
+@media (min-width: 1701px){
+
+.Main{
+	width: 68%;
+
+}
+
+.Main li{
+	font-size: 140px;
+	margin-bottom: 20px;
+
+}
+ul.sub{
+	width: 24%;
+    margin-right: 34px;
+    letter-spacing: 3px;
+    float: right;
+    margin-top: 180px;
+
+}
+.sub{
+
+	height: 100%;
+
+}
+
+.sub li{
+	font-family: 'brandon_grotesque_regularRg', Arial, sans-serif;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+
+}
+
+
+
+
+
+
+}
+
 
 

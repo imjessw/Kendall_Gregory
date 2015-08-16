@@ -1,3 +1,4 @@
+
 /*MenuPage*/
 @font-face{
 	font-family: 'brandon_grotesque_regularRg';
@@ -56,7 +57,7 @@ a:hover {
     color: white;
 }
 .Main{
-	width: 75%;
+	width: 73%;
 	float: left;
 }
 .Main ul{
@@ -68,7 +69,6 @@ a:hover {
 	-webkit-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern=1";
-
 }
 
 .Main li{
@@ -90,8 +90,10 @@ ul.sub{
 	top: 150px;
 	height: 100%;
 	margin-top: 50px;
-	margin-right: 15px;
+	margin-right: 10px;
 	display: none;
+	width: 24%;
+	margin-right: 34px;
 	letter-spacing: 3px;
 	-webkit-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern";
@@ -100,9 +102,9 @@ ul.sub{
 
 .sub li{
 	font-family: 'brandon_grotesque_regularRg', Arial, sans-serif;
-	padding:17px;
+	padding-bottom: 17px;
+	padding-top: 17px;
 }
-
 #showUl:hover{
 	text-decoration: none;
 	color: white;
@@ -111,5 +113,10 @@ ul.sub{
 	text-decoration: none;
 
 }
+
+.clear{
+	clear:both;
+}
+
 
 

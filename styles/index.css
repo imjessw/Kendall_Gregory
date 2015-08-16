@@ -447,7 +447,7 @@ video {
 
 
 #socialRTR{
-	background-image: url('RTR/SocialBackground.png');
+	background-image: url('../assets/RTR/SocialBackground.png');
 	background-size: cover;
 	width: 100%;
     height: 348px;
@@ -491,12 +491,12 @@ video {
 	margin-top: 190px;
 }
 #triangleBackground{
-	background-image: url("GE_BlueTriangle1Background.png");
+	background-image: url("../assets/GE_BlueTriangle1Background.png");
 
 }
 
 #triangleBackground2{
-	background-image: url("GE_background.png");
+	background-image: url("../assets/GE_background.png");
 	background-size: 100%;
 }
 

@@ -513,7 +513,9 @@ video {
 	text-transform: uppercase;
 	font-size: 100px;
 }
-
+#wowslider-container1.ws_gestures{
+	font-size: 14px !important;
+}
 
 
 
@@ -524,8 +526,7 @@ video {
 
 .MenuBar{
 	text-align: center;
-	width: 65%;
-	margin:17 auto;
+	margin: 17px auto;
 	text-decoration: none;
 	letter-spacing: 2px;
 	-webkit-font-feature-settings: "kern";
@@ -596,6 +597,7 @@ video {
 	float: right;
 	margin-right: 70px;
 }
+
 
 }
 

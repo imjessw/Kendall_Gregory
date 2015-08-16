@@ -385,7 +385,7 @@ video {
 
 
 #aboutMeImage{
-	background-image: url('../AboutMe/AboutMe.png');
+	background-image: url('../assets/AboutMe/AboutMe.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100%;

@@ -734,6 +734,61 @@ video {
 .Bmt45{
 	margin-top: 45px;
 }
+#blockQuoteBig{
+	margin-left: -307px;
+	font-size: 29px;
+}
+.bw100{
+	width: 100%;
+}
+.bh1000{
+	height: 1000px;
+}
+.bw56{
+    width: 56%;
+}
+
+.bh1200{
+	height: 1200px;
+}
+#sleepygirlFade{
+	width:80%;
+		/*max-height: 1000px;*/
+}
+#FadeMood{
+	width: 80%;
+
+}
+.bh100{
+	height: 100%;
+}
+#wowslider-container1{
+	margin-top: 400px!important;
+
+}
+#wowslider-container1 div{
+
+	overflow: visible !important;
+}
+#wowslider-container1 div.ws_images{
+	overflow: visible !important;
+}
+
+
+div.ws_cover{
+	overflow: visible !important;
+
+}
+#FadeCover{
+	width: 80%;
+}
+.bGif{
+	width: 1000px;
+}
+.bGifl{
+	float: right;
+	width: 1000px;
+}
 
 }
 

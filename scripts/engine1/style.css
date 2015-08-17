@@ -39,7 +39,6 @@
 	width:1%;
 	height:100%;
 	line-height:0; /*opera*/
-	overflow: hidden;
 	float:left;
 	/*font-size:0;*/
 	padding:0 0 0 0 !important;

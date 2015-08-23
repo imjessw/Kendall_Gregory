@@ -555,18 +555,32 @@ video {
 	margin-right: 70px;
 }
 
-#Clip09_IG{
-	width: 500px;
-	height: 500px;
-	padding-bottom: 20px;
-	float:right !important;
-	/*padding-right: 30px;*/
+#Clip09_IG {
+    width: 500px !important;
+    height: 500px;
+    padding-bottom: 20px;
+    float: right !important;
+    padding-left: 30px;
 }
 
 #Clip13_IG{
 	margin-top: 100px;
 	width: 400px;
 	height: 400px;
+}
+
+.Pantimg{
+	height: 400px;
+	width: 100%;
+
+}
+#Clip05_FB{
+	height: 400px;
+	width: 400px;
+
+}
+#Clip22_IG{
+	width: 50% !important;
 }
 
 

@@ -563,10 +563,12 @@ video {
     padding-left: 30px;
 }
 
-#Clip13_IG{
-	margin-top: 100px;
-	width: 400px;
-	height: 400px;
+#Clip13_IG {
+    margin-top: 100px;
+    width: 400px !important;
+    height: 400px;
+    margin-left: 10%;
+
 }
 
 .Pantimg{

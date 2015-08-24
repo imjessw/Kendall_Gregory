@@ -623,7 +623,7 @@ video {
 .Fade {
     position: relative;
     top: 436px;
-    width: 979px;
+	width: 1068px;
     margin-bottom: 100px;
 }
 .CoverGirl {
@@ -641,7 +641,51 @@ video {
 
 .GE{
 	width: 401px;
-	margin-right: 619px;
+	margin-right: 545px;
+	margin-top: -55px;
+}
+
+.KALEIDOSCOPE {
+    height: 687px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.ArtofHealthyHair {
+    width: 801px;
+    margin-top: -602px;
+    margin-right: 300px !important;
+}
+.Nexxus{
+	height: 900px;
+}
+
+.CoverGirl {
+    height: 602px;
+}
+
+.PRTR{
+	height: 700px;
+}
+.Pantnene {
+    width: 704px;
+    margin-bottom: 200px;
+    margin-top: -546px;
+}
+
+.TumsProduct {
+    margin-top: -975px;
+    width: 746px;
+    margin-right: 400px !important;
+}
+
+.LG {
+    width: 723px;
+    padding-top: 108px;
+}
+
+.StIves {
+    margin-top: -261px;
+    width: 550px;
 }
 
 .bw750{
@@ -665,7 +709,7 @@ video {
 }
 #MenuBar2{
 	margin-left: 117px;
-	width: 100%;
+/*	width: 100%;*/
 	margin-top: 160px;
 	letter-spacing: 2px;
 	-webkit-font-feature-settings: "kern";
@@ -842,6 +886,64 @@ div.ws_cover{
 	float: right;
 	width: 1000px;
 }
+
+/*pantene
+*/
+#Clip09_IG {
+    width: 900px !important;
+    height: 900px;
+    padding-bottom: 20px;
+    float: right !important;
+    padding-left: 30px;
+}
+
+#Clip13_IG {
+    margin-top: 100px;
+    width: 600px !important;
+    height: 600px;
+    margin-left: 10%;
+
+}
+
+.Pantimg{
+	height: 600px;
+	width: 100%;
+
+}
+#Clip05_FB{
+	height: 600px;
+	width: 600px;
+
+}
+#Clip22_IG {
+    float: right !important;
+    margin-right: 200px;
+    width: 700px !important;
+}
+
+#Clip17_FB{
+	width: 50% !important;
+}
+
+#PantIMG09{
+	height: 610px;
+	margin-left: 10%;
+}
+.h750px{
+	height: 1050px;
+}
+#pantene03{
+	height: 600px;
+	width: 1000px;
+	margin-top: 50px;
+}
+
+/*HomePage*/
+#headerImage{
+	margin-left: 180px;
+}
+
+
 
 }
 

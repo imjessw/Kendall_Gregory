@@ -221,6 +221,22 @@ a{
 
 .useModern{
 	font-family: 'ModernMT-Extended';
+	-webkit-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern=1";
+}
+
+.useNarz{
+	font-family: 'NarzissMedium-Drops';	
+}	
+
+#AboutPageHead{
+	font-size: 60px;
+	margin-right: 20px;
+}
+#aboutMain{
+	text-align: right;
+	margin-right: 20px;
 }
 
 
@@ -532,6 +548,20 @@ video {
 a.consocials {
     padding: 25px;
 }
+
+.consocials {
+	letter-spacing: 4px;
+	-webkit-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern=1";
+
+}
+
+.BottomR{
+	margin-top: 580px;
+	margin-bottom: 20px;
+}
+
 
 
 

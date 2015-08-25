@@ -15,6 +15,10 @@
   	-moz-font-feature-settings: "kern=1";
 
 }
+@font-face {
+	font-family: 'ModernMT-Extended';
+	src:url('../styles/ModernMT-Extended.ttf') format('truetype');
+}
 @import url("//hello.myfonts.net/count/2e1b5b");
 
 @font-face {
@@ -215,6 +219,10 @@ a{
 	width: 500px;
 }
 
+.useModern{
+	font-family: 'ModernMT-Extended';
+}
+
 
 
 
@@ -317,6 +325,10 @@ a{
 p{
 	text-align: center;
 	margin: 0 auto;
+}
+
+.tAr{
+	text-align: right;
 }
 
 
@@ -696,6 +708,37 @@ video {
 	width: 81%;
 }
 
+#LGPrint{
+	width: 84%;
+}
+
+#LGFB{
+	height: 1200px;
+}
+
+#Ted_ipad{
+	margin-left: 100px !important;
+	margin-top: 200px;
+
+}
+#aboutMain{
+	width: 40%;
+	text-align: right;
+}
+
+.bw80{
+	width: 80% !important;
+}
+#gepeople{
+	width: 720px;
+}
+
+#geStripes{
+	width: 720px;
+}
+
+
+
 /*Menu sections*/
 .MenuBar{
 	text-align: center;
@@ -802,6 +845,7 @@ video {
 	width: 80%;
 	margin-left: 1030px;
 	margin-right: 0px;
+	font-size: 26px;
 
 }
 
@@ -814,6 +858,10 @@ video {
 }
 .BufferMargin50p{
 	margin-right: 50px;
+}
+
+#GEstationary{
+	width: 1500px;
 }
 
 #dry{
@@ -941,6 +989,10 @@ div.ws_cover{
 /*HomePage*/
 #headerImage{
 	margin-left: 180px;
+}
+
+.tAr{
+	text-align: right;
 }
 
 

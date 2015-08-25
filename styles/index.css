@@ -492,6 +492,17 @@ video {
 @media (min-width: 1100px) and (max-width: 1300px){ 
 
 /*HOME*/
+#headerImage{
+	width: 98%;
+
+}
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
+}
 
 .GE{
  width: 300px;
@@ -518,15 +529,9 @@ video {
 
 }
 
-.PRTR{
-
+a.consocials {
+    padding: 25px;
 }
-
-.Pantnene{
-
-}
-
-
 
 
 
@@ -658,7 +663,7 @@ video {
 
 }
 
-/*Large desktop screens*/
+Large desktop screens
 
 @media (min-width: 1701px){
 
@@ -782,7 +787,7 @@ video {
 
 
 
-/*Menu sections*/
+Menu sections
 .MenuBar{
 	text-align: center;
 
@@ -795,7 +800,7 @@ video {
 }
 #MenuBar2{
 	margin-left: 117px;
-/*	width: 100%;*/
+	width: 100%;
 	margin-top: 160px;
 	letter-spacing: 2px;
 	-webkit-font-feature-settings: "kern";
@@ -941,7 +946,7 @@ video {
 }
 #sleepygirlFade{
 	width:80%;
-		/*max-height: 1000px;*/
+	/*max-height: 1000px;*/
 }
 #FadeMood{
 	width: 80%;
@@ -978,8 +983,8 @@ div.ws_cover{
 	width: 1000px;
 }
 
-/*pantene
-*/
+/*pantene */
+
 #Clip09_IG {
     width: 900px !important;
     height: 900px;

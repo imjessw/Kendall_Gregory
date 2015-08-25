@@ -489,9 +489,52 @@ video {
 
 
 /*Laptop Screens*/
+@media (min-width: 1100px) and (max-width: 1300px){ 
+
+/*HOME*/
+
+.GE{
+ width: 300px;
+}
+
+.KALEIDOSCOPE {
+	width: 500px;
+
+}
+
+.ArtofHealthyHair{
+	width: 618px;
+}
+
+.Nexxus{
+	height: 636px;
+    margin-top: -100px;
+
+}
+
+.CoverGirl{
+	height: 433px;
+    margin-top: -296px;
+
+}
+
+.PRTR{
+
+}
+
+.Pantnene{
+
+}
 
 
-@media (min-width: 700px) and (max-width: 1700px){ 
+
+
+
+
+
+}
+
+@media (min-width: 1301px) and (max-width: 1700px){ 
 
 .MenuBar{
 	text-align: center;

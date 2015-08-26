@@ -246,6 +246,7 @@ a{
 
 
 
+
 /*Setting Height of white space sections*/
 .mH200{
 	min-height:200px !important;
@@ -347,6 +348,9 @@ p{
 
 .tAr{
 	text-align: right;
+}
+#CG_Section1 {
+    height: 700px;
 }
 
 
@@ -638,6 +642,11 @@ a.consocials {
 	height: 800px;
 }
 
+#CG_Section1 {
+    height: 700px;
+    width: 700px;
+}
+
 
 
 }
@@ -887,10 +896,14 @@ Large desktop screens
 #geStripes{
 	width: 720px;
 }
+#CG_Section1 {
+    height: 700px;
+    width: 700px;
+}
 
 
 
-Menu sections
+/*Menu sections*/
 .MenuBar{
 	text-align: center;
 

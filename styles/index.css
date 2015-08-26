@@ -776,7 +776,13 @@ a.consocials {
 }
 
 
+.right{
+	float: right;
+}
 
+.left{
+	float: left;
+}
 }
 
 Large desktop screens

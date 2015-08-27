@@ -288,9 +288,9 @@ a{
 }
 #PanteneBodyBack{
 	background-image: url('../assets/Pantene/oil.png');
-/*	background-repeat: no-repeat;*/
-/*	background-attachment: fixed;*/
-	background-size: 100%;
+/*	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% !important;*/
 
 }
 
@@ -515,6 +515,13 @@ video {
 	font-size: 14px !important;
 }
 
+/*
+----------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------
+====================================================
+*/
+
 
 
 /*Laptop Screens*/
@@ -658,9 +665,70 @@ a.consocials {
     width: 700px;
 }
 
+#Clip09_IG {
+    width: 600px !important;
+    height: 600px;
+    padding-bottom: 20px;
+    float: right !important;
+    padding-left: 30px;
+	margin-top: 44px;
+}
+
+#Clip13_IG {
+    margin-top: 93px;
+    width: 400px !important;
+    height: 400px;
+    margin-left: 5%;
+}
+.Pantimg{
+	height: 600px;
+	width: 100%;
+
+}
+#Clip05_FB{
+	height: 410px;
+	margin-left: 23px;
+	margin-top: 44px;
+
+}
+
+/*Pantene 13 inch*/
+#Clip22_IG {
+    float: right !important;
+    margin-right: 75px;
+    width: 497px !important;
+}
+
+#Clip17_FB{
+	width: 50% !important;
+}
+
+#PantIMG09 {
+    height: 410px;
+    margin-left: 10%;
+}
+.h750px{
+	height: 1050px;
+}
+#pantene03{
+	height: 360px;
+	margin-top: 90px;
+}
+
+#pantIphone1{
+	height: 650px;
+}
+
 
 
 }
+
+/*
+----------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------
+====================================================
+*/
 
 @media (min-width: 1301px) and (max-width: 1700px){ 
 
@@ -792,7 +860,15 @@ a.consocials {
 }
 }
 
-Large desktop screens
+/*
+----------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------
+====================================================
+*/
+
+
+/*Large desktop screens*/
 
 @media (min-width: 1701px){
 

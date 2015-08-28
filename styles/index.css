@@ -898,12 +898,12 @@ a.consocials {
 
 .left{
 	float: left;
-	margin-left: 370px;
+	margin-left: 70px;
 }
 
 .right{
 	float: right;
-	margin-right: 370px;
+	margin-right: 70px;
 }
 
 #headerImage{
@@ -1287,8 +1287,20 @@ div.ws_cover{
 .chatTwitt {
     margin-left: 188px;
 }
+.leftimg {
+    float: right;
+}
 
+#letsChat{
+	margin-top: 288px;
+}
+.chatBottom{
+	margin-top: 400px;
+}
 
+#Menuchat{
+	    margin-bottom: 306px !important;
+}
 
 
 }

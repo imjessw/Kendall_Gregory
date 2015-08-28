@@ -507,10 +507,17 @@ video {
 #letsChat{
 	font-family: 'NarzissMedium-Drops', Arial, sans-serif;
 	margin-left: 188px;
-	margin-top: 200px;
+	margin-top: 110px;
+	margin-bottom: 100px;
 	text-transform: uppercase;
 	font-size: 100px;
 }
+
+.chatBottom{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
 #wowslider-container1.ws_gestures{
 	font-size: 14px !important;
 }
@@ -638,10 +645,11 @@ a.consocials {
 
 }
 
-#MenuBar2 #chatSocials{
-	margin-left: 188px;
-	text-align: center;
+#MenuBar2{
+
+/*	text-align: center;*/
 	margin: 10px  auto;
+	margin-bottom: 200px;
 }
 
 .chatTwitt{
@@ -722,6 +730,12 @@ a.consocials {
 	width: 98%;
 }
 
+.chatTwitt {
+    margin-left: 188px;
+}
+
+
+
 
 }
 
@@ -744,10 +758,11 @@ a.consocials {
   	-moz-font-feature-settings: "kern=1";
 }
 #MenuBar2{
-	margin-left: 117px;
+/*	margin-left: 117px;*/
 	width: 100%;
 	margin-top: 160px;
 	letter-spacing: 2px;
+	margin-bottom: 200px;
 	-webkit-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern=1";
@@ -860,6 +875,13 @@ a.consocials {
 .left{
 	float: left;
 }
+.chatTwitt {
+    margin-left: 188px;
+}
+
+
+
+
 }
 
 /*
@@ -1001,7 +1023,6 @@ a.consocials {
 /*Menu sections*/
 .MenuBar{
 	text-align: center;
-
 	margin:17 auto;
 	text-decoration: none;
 	letter-spacing: 2px;
@@ -1010,10 +1031,11 @@ a.consocials {
   	-moz-font-feature-settings: "kern=1";
 }
 #MenuBar2{
-	margin-left: 117px;
+/*	margin-left: 117px;*/
 	width: 100%;
 	margin-top: 160px;
 	letter-spacing: 2px;
+	margin-bottom: 400px;
 	-webkit-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern=1";
@@ -1262,6 +1284,9 @@ div.ws_cover{
 	height: 800px;
 }
 
+.chatTwitt {
+    margin-left: 188px;
+}
 
 
 

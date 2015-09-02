@@ -879,6 +879,10 @@ a.consocials {
     margin-left: 188px;
 }
 
+.cg_h0{
+	width: auto;
+}
+
 
 
 
@@ -891,6 +895,8 @@ a.consocials {
 ====================================================
 */
 
+
+/*Large desktop screens*/
 
 /*Large desktop screens*/
 
@@ -910,9 +916,11 @@ a.consocials {
 	width: 80%;
 }
 .Fade {
-    position: relative;
-    top: 436px;
-	width: 1068px;
+    /* position: relative; */
+	
+    margin-left: 171px;
+	
+    width: 994px;
     margin-bottom: 100px;
 }
 .CoverGirl {
@@ -930,26 +938,26 @@ a.consocials {
 
 .GE{
 	width: 401px;
-	margin-right: 545px;
-	margin-top: -55px;
+	margin-right: 10px;
+	margin-top: -206px;
 }
 
 .KALEIDOSCOPE {
     height: 687px;
-    margin-left: 300px;
+    margin-left: 210px;
     margin-top: 50px;
 }
 .ArtofHealthyHair {
-    width: 801px;
+    width: 802px;
     margin-top: -602px;
-    margin-right: 300px !important;
+    margin-right: 48px !important;
 }
 .Nexxus{
 	height: 900px;
 }
 
 .CoverGirl {
-    height: 602px;
+    height: 557px;
 }
 
 .PRTR{
@@ -962,9 +970,9 @@ a.consocials {
 }
 
 .TumsProduct {
-    margin-top: -975px;
+    margin-top: -1050px;
     width: 746px;
-    margin-right: 400px !important;
+    margin-right: 95px !important;
 }
 
 .LG {
@@ -1035,7 +1043,17 @@ a.consocials {
 	width: 100%;
 	margin-top: 160px;
 	letter-spacing: 2px;
+	
 	margin-bottom: 400px;
+	-webkit-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern";
+  	-moz-font-feature-settings: "kern=1";
+
+}
+#MenuBar2Home{
+	width: 100%;
+	margin-top: 160px;
+	letter-spacing: 2px;
 	-webkit-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern";
   	-moz-font-feature-settings: "kern=1";
@@ -1304,5 +1322,6 @@ div.ws_cover{
 
 
 }
+
 
 
